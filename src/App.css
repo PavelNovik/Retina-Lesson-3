@@ -11,3 +11,15 @@
     height: 400px;
     background: url(./assets/images/image.jpg) no-repeat center/contain;
 }
+
+
+@media (min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 2) {
+    .bg {
+    background: url(./assets/images/image@2x.png) no-repeat center/contain;
+    }
+}
+@media (min-resolution: 3dppx), (-webkit-min-device-pixel-ratio: 3) {
+    .bg {
+    background: url(./assets/images/image@3x.png) no-repeat center/contain;
+    }
+}
